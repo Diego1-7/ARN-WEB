@@ -1,0 +1,9 @@
+[build]
+  command = "composer install && php --version"
+  
+  [publish]
+  directory = "."
+
+
+[build.environment]
+  PHP_VERSION = "7.4"
